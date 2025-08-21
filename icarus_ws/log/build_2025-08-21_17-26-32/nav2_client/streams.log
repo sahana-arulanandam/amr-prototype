@@ -1,0 +1,22 @@
+[0.031s] Invoking command in '/home/amr/icarus_ws/build/nav2_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/icarus_ws/install/rosbot_description:/home/amr/driver_ws/install/yahboomcar_description:/home/amr/driver_ws/install/yahboomcar_ctrl:/home/amr/driver_ws/install/yahboomcar_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/amr/icarus_ws/build/nav2_client -- -j4 -l4
+[0.368s] [100%] Built target navigation_client
+[0.389s] Invoked command in '/home/amr/icarus_ws/build/nav2_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/icarus_ws/install/rosbot_description:/home/amr/driver_ws/install/yahboomcar_description:/home/amr/driver_ws/install/yahboomcar_ctrl:/home/amr/driver_ws/install/yahboomcar_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/amr/icarus_ws/build/nav2_client -- -j4 -l4
+[0.391s] Invoking command in '/home/amr/icarus_ws/build/nav2_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/icarus_ws/install/rosbot_description:/home/amr/driver_ws/install/yahboomcar_description:/home/amr/driver_ws/install/yahboomcar_ctrl:/home/amr/driver_ws/install/yahboomcar_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/amr/icarus_ws/build/nav2_client
+[0.443s] -- Install configuration: ""
+[0.443s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/lib/nav2_client/navigation_client
+[0.443s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/ament_index/resource_index/package_run_dependencies/nav2_client
+[0.443s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/ament_index/resource_index/parent_prefix_path/nav2_client
+[0.443s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/environment/ament_prefix_path.sh
+[0.443s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/environment/ament_prefix_path.dsv
+[0.443s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/environment/path.sh
+[0.443s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/environment/path.dsv
+[0.444s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/local_setup.bash
+[0.444s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/local_setup.sh
+[0.444s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/local_setup.zsh
+[0.444s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/local_setup.dsv
+[0.444s] -- Installing: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/package.dsv
+[0.444s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/ament_index/resource_index/packages/nav2_client
+[0.444s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/cmake/nav2_clientConfig.cmake
+[0.444s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/cmake/nav2_clientConfig-version.cmake
+[0.444s] -- Up-to-date: /home/amr/icarus_ws/install/nav2_client/share/nav2_client/package.xml
+[0.448s] Invoked command in '/home/amr/icarus_ws/build/nav2_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/icarus_ws/install/rosbot_description:/home/amr/driver_ws/install/yahboomcar_description:/home/amr/driver_ws/install/yahboomcar_ctrl:/home/amr/driver_ws/install/yahboomcar_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/amr/icarus_ws/build/nav2_client

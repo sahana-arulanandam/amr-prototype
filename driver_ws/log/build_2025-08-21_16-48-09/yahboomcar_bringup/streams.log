@@ -1,0 +1,111 @@
+[2.087s] Invoking command in '/home/amr/driver_ws/src/yahboomcar_bringup': PYTHONPATH=/home/amr/driver_ws/build/yahboomcar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboomcar_bringup build --build-base /home/amr/driver_ws/build/yahboomcar_bringup/build install --record /home/amr/driver_ws/build/yahboomcar_bringup/install.log --install-scripts $base/lib/yahboomcar_bringup --single-version-externally-managed install_data
+[2.328s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.328s] !!
+[2.328s] 
+[2.328s]         ********************************************************************************
+[2.328s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.329s]         versions. Please use the underscore name 'script_dir' instead.
+[2.329s] 
+[2.329s]         This deprecation is overdue, please update your project and remove deprecated
+[2.331s]         calls to avoid build errors in the future.
+[2.331s] 
+[2.332s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.332s]         ********************************************************************************
+[2.332s] 
+[2.332s] !!
+[2.332s]   opt = self.warn_dash_deprecation(opt, section)
+[2.522s] running egg_info
+[2.523s] creating ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info
+[2.548s] writing ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/PKG-INFO
+[2.549s] writing dependency_links to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/dependency_links.txt
+[2.549s] writing entry points to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/entry_points.txt
+[2.549s] writing requirements to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/requires.txt
+[2.550s] writing top-level names to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/top_level.txt
+[2.550s] writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'
+[2.608s] reading manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'
+[2.612s] writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'
+[2.612s] running build
+[2.612s] running build_py
+[2.612s] creating /home/amr/driver_ws/build/yahboomcar_bringup/build
+[2.612s] creating /home/amr/driver_ws/build/yahboomcar_bringup/build/lib
+[2.612s] creating /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.612s] copying yahboomcar_bringup/patrol_4ROS_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.613s] copying yahboomcar_bringup/calibrate_linear_X3.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.614s] copying yahboomcar_bringup/test.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.615s] copying yahboomcar_bringup/calibrate_angular_X3.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.616s] copying yahboomcar_bringup/Mcnamu_driver_X3.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.617s] copying yahboomcar_bringup/untitled.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.617s] copying yahboomcar_bringup/calibrate_angular_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.618s] copying yahboomcar_bringup/Mcnamu_driver_x1.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.619s] copying yahboomcar_bringup/transform_utils.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.620s] copying yahboomcar_bringup/__init__.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.621s] copying yahboomcar_bringup/patrol_4ROS.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.622s] copying yahboomcar_bringup/calibrate_linear_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.623s] copying yahboomcar_bringup/Ackman_driver_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.624s] copying yahboomcar_bringup/patrol_a1_X3.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.626s] copying yahboomcar_bringup/patrol_a1_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[2.629s] running install
+[2.640s] running install_lib
+[2.668s] creating /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.669s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_4ROS_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.669s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_linear_X3.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.670s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/test.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.670s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_angular_X3.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.670s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Mcnamu_driver_X3.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.673s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/untitled.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.673s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_angular_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.673s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Mcnamu_driver_x1.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.674s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/transform_utils.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.674s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/__init__.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.674s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_4ROS.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.674s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_linear_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.674s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Ackman_driver_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.674s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_a1_X3.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.674s] copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_a1_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup
+[2.674s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/patrol_4ROS_R2.py to patrol_4ROS_R2.cpython-312.pyc
+[2.680s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/calibrate_linear_X3.py to calibrate_linear_X3.cpython-312.pyc
+[2.682s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/test.py to test.cpython-312.pyc
+[2.683s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/calibrate_angular_X3.py to calibrate_angular_X3.cpython-312.pyc
+[2.686s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/Mcnamu_driver_X3.py to Mcnamu_driver_X3.cpython-312.pyc
+[2.689s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/untitled.py to untitled.cpython-312.pyc
+[2.689s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/calibrate_angular_R2.py to calibrate_angular_R2.cpython-312.pyc
+[2.694s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/Mcnamu_driver_x1.py to Mcnamu_driver_x1.cpython-312.pyc
+[2.696s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/transform_utils.py to transform_utils.cpython-312.pyc
+[2.696s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/__init__.py to __init__.cpython-312.pyc
+[2.697s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/patrol_4ROS.py to patrol_4ROS.cpython-312.pyc
+[2.703s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/calibrate_linear_R2.py to calibrate_linear_R2.cpython-312.pyc
+[2.705s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/Ackman_driver_R2.py to Ackman_driver_R2.cpython-312.pyc
+[2.709s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/patrol_a1_X3.py to patrol_a1_X3.cpython-312.pyc
+[2.717s] byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/patrol_a1_R2.py to patrol_a1_R2.cpython-312.pyc
+[2.723s] running install_data
+[2.723s] creating /home/amr/driver_ws/install/yahboomcar_bringup/share/ament_index
+[2.723s] creating /home/amr/driver_ws/install/yahboomcar_bringup/share/ament_index/resource_index
+[2.724s] creating /home/amr/driver_ws/install/yahboomcar_bringup/share/ament_index/resource_index/packages
+[2.724s] copying resource/yahboomcar_bringup -> /home/amr/driver_ws/install/yahboomcar_bringup/share/ament_index/resource_index/packages
+[2.725s] copying package.xml -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup
+[2.725s] creating /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+[2.726s] copying launch/yahboomcar_bringup_R2_launch.py -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+[2.730s] copying launch/yahboomcar_bringup_X3_launch.py -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+[2.731s] copying launch/ekf_x1_x3_launch.py -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+[2.731s] copying launch/yahboomcar_bringup_X1_launch.py -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+[2.733s] creating /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_description
+[2.734s] creating /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_description/rviz
+[2.734s] copying rviz/yahboomcar.rviz -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_description/rviz
+[2.739s] creating /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/param
+[2.739s] copying param/imu_filter_param.yaml -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/param
+[2.743s] running install_egg_info
+[2.780s] Copying ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info to /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup-0.0.0-py3.12.egg-info
+[2.782s] running install_scripts
+[3.000s] Installing Ackman_driver_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.001s] Installing Mcnamu_driver_X3 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.001s] Installing Mcnamu_driver_x1 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.001s] Installing calibrate_angular_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.001s] Installing calibrate_angular_X3 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.001s] Installing calibrate_linear_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.001s] Installing calibrate_linear_X3 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.001s] Installing patrol_4ROS script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.001s] Installing patrol_4ROS_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.002s] Installing patrol_a1_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.002s] Installing patrol_a1_X3 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[3.002s] writing list of installed files to '/home/amr/driver_ws/build/yahboomcar_bringup/install.log'
+[3.121s] Invoked command in '/home/amr/driver_ws/src/yahboomcar_bringup' returned '0': PYTHONPATH=/home/amr/driver_ws/build/yahboomcar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboomcar_bringup build --build-base /home/amr/driver_ws/build/yahboomcar_bringup/build install --record /home/amr/driver_ws/build/yahboomcar_bringup/install.log --install-scripts $base/lib/yahboomcar_bringup --single-version-externally-managed install_data

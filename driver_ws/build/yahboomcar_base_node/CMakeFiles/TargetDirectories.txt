@@ -1,0 +1,12 @@
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/uninstall.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/yahboomcar_base_node_uninstall.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/base_node_X3.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/base_node_x1.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/base_node_R2.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/test.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/edit_cache.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/rebuild_cache.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/list_install_components.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/install.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/install/local.dir
+/home/amr/driver_ws/build/yahboomcar_base_node/CMakeFiles/install/strip.dir

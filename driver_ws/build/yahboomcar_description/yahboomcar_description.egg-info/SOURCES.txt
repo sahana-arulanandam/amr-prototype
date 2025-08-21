@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/yahboomcar_description/yahboomcar_description.egg-info/PKG-INFO
+../../build/yahboomcar_description/yahboomcar_description.egg-info/SOURCES.txt
+../../build/yahboomcar_description/yahboomcar_description.egg-info/dependency_links.txt
+../../build/yahboomcar_description/yahboomcar_description.egg-info/requires.txt
+../../build/yahboomcar_description/yahboomcar_description.egg-info/top_level.txt
+../../build/yahboomcar_description/yahboomcar_description.egg-info/zip-safe
+resource/yahboomcar_description
+urdf/new.urdf
+urdf/new.xacro
+urdf/yahboomcar_R2.urdf
+urdf/yahboomcar_R2.urdf.xacro
+urdf/yahboomcar_R2_multi.urdf.xacro

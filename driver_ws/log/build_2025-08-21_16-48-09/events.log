@@ -1,0 +1,515 @@
+[0.000000] (-) TimerEvent: {}
+[0.000360] (yahboomcar_base_node) JobQueued: {'identifier': 'yahboomcar_base_node', 'dependencies': OrderedDict()}
+[0.000674] (yahboomcar_bringup) JobQueued: {'identifier': 'yahboomcar_bringup', 'dependencies': OrderedDict()}
+[0.000700] (yahboomcar_ctrl) JobQueued: {'identifier': 'yahboomcar_ctrl', 'dependencies': OrderedDict()}
+[0.000720] (yahboomcar_description) JobQueued: {'identifier': 'yahboomcar_description', 'dependencies': OrderedDict()}
+[0.000739] (yahboomcar_base_node) JobStarted: {'identifier': 'yahboomcar_base_node'}
+[0.007793] (yahboomcar_bringup) JobStarted: {'identifier': 'yahboomcar_bringup'}
+[0.014739] (yahboomcar_ctrl) JobStarted: {'identifier': 'yahboomcar_ctrl'}
+[0.021306] (yahboomcar_description) JobStarted: {'identifier': 'yahboomcar_description'}
+[0.030066] (yahboomcar_base_node) JobProgress: {'identifier': 'yahboomcar_base_node', 'progress': 'cmake'}
+[0.030905] (yahboomcar_base_node) Command: {'cmd': ['/usr/bin/cmake', '/home/amr/driver_ws/src/yahboomcar_base_node', '-DCMAKE_INSTALL_PREFIX=/home/amr/driver_ws/install/yahboomcar_base_node'], 'cwd': '/home/amr/driver_ws/build/yahboomcar_base_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'SSH_CLIENT': '10.188.124.225 54846 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr', 'OLDPWD': '/home/amr', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/amr/lidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/amr/driver_ws/build/yahboomcar_base_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.188.124.225 54846 10.188.124.181 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099691] (-) TimerEvent: {}
+[0.200067] (-) TimerEvent: {}
+[0.300468] (-) TimerEvent: {}
+[0.400916] (-) TimerEvent: {}
+[0.501266] (-) TimerEvent: {}
+[0.601610] (-) TimerEvent: {}
+[0.701976] (-) TimerEvent: {}
+[0.727744] (yahboomcar_base_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.728210] (yahboomcar_base_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.728401] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.728500] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.728591] (yahboomcar_base_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.728676] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.728757] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.728838] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.728920] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.729001] (yahboomcar_base_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.729083] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.729163] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.729281] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.802078] (-) TimerEvent: {}
+[0.902424] (-) TimerEvent: {}
+[0.920231] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.002556] (-) TimerEvent: {}
+[1.104283] (-) TimerEvent: {}
+[1.144361] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.204415] (-) TimerEvent: {}
+[1.248324] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.282114] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.304507] (-) TimerEvent: {}
+[1.317015] (yahboomcar_base_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.353553] (yahboomcar_base_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.404635] (-) TimerEvent: {}
+[1.443602] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.504743] (-) TimerEvent: {}
+[1.608295] (-) TimerEvent: {}
+[1.653321] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.660890] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.708398] (-) TimerEvent: {}
+[1.808759] (-) TimerEvent: {}
+[1.833320] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.865917] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.908934] (-) TimerEvent: {}
+[1.914640] (yahboomcar_base_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.009159] (-) TimerEvent: {}
+[2.071162] (yahboomcar_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yahboomcar_description', 'build', '--build-base', '/home/amr/driver_ws/build/yahboomcar_description/build', 'install', '--record', '/home/amr/driver_ws/build/yahboomcar_description/install.log', '--install-scripts', '$base/lib/yahboomcar_description', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amr/driver_ws/src/yahboomcar_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'SSH_CLIENT': '10.188.124.225 54846 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr', 'OLDPWD': '/home/amr', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/amr/lidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/amr/driver_ws/build/yahboomcar_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.188.124.225 54846 10.188.124.181 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amr/driver_ws/build/yahboomcar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/driver_ws/install/yahboomcar_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.083237] (yahboomcar_ctrl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yahboomcar_ctrl', 'build', '--build-base', '/home/amr/driver_ws/build/yahboomcar_ctrl/build', 'install', '--record', '/home/amr/driver_ws/build/yahboomcar_ctrl/install.log', '--install-scripts', '$base/lib/yahboomcar_ctrl', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amr/driver_ws/src/yahboomcar_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'SSH_CLIENT': '10.188.124.225 54846 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr', 'OLDPWD': '/home/amr', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/amr/lidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/amr/driver_ws/build/yahboomcar_ctrl', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.188.124.225 54846 10.188.124.181 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amr/driver_ws/build/yahboomcar_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/driver_ws/install/yahboomcar_ctrl/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.094262] (yahboomcar_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yahboomcar_bringup', 'build', '--build-base', '/home/amr/driver_ws/build/yahboomcar_bringup/build', 'install', '--record', '/home/amr/driver_ws/build/yahboomcar_bringup/install.log', '--install-scripts', '$base/lib/yahboomcar_bringup', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amr/driver_ws/src/yahboomcar_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'SSH_CLIENT': '10.188.124.225 54846 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr', 'OLDPWD': '/home/amr', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/amr/lidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/amr/driver_ws/build/yahboomcar_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.188.124.225 54846 10.188.124.181 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amr/driver_ws/build/yahboomcar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.111300] (-) TimerEvent: {}
+[2.211694] (-) TimerEvent: {}
+[2.259895] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.306022] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.311801] (-) TimerEvent: {}
+[2.320837] (yahboomcar_ctrl) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[2.321184] (yahboomcar_ctrl) StderrLine: {'line': b'!!\n'}
+[2.324605] (yahboomcar_ctrl) StderrLine: {'line': b'\n'}
+[2.324715] (yahboomcar_ctrl) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.324798] (yahboomcar_ctrl) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[2.324877] (yahboomcar_ctrl) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[2.324952] (yahboomcar_ctrl) StderrLine: {'line': b'\n'}
+[2.325028] (yahboomcar_ctrl) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[2.325106] (yahboomcar_ctrl) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[2.325222] (yahboomcar_ctrl) StderrLine: {'line': b'\n'}
+[2.325329] (yahboomcar_ctrl) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[2.325412] (yahboomcar_ctrl) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.325488] (yahboomcar_ctrl) StderrLine: {'line': b'\n'}
+[2.325563] (yahboomcar_ctrl) StderrLine: {'line': b'!!\n'}
+[2.325636] (yahboomcar_ctrl) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.325711] (yahboomcar_description) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[2.325842] (yahboomcar_description) StderrLine: {'line': b'!!\n'}
+[2.325923] (yahboomcar_description) StderrLine: {'line': b'\n'}
+[2.325998] (yahboomcar_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.326073] (yahboomcar_description) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[2.326148] (yahboomcar_description) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[2.326240] (yahboomcar_description) StderrLine: {'line': b'\n'}
+[2.326318] (yahboomcar_description) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[2.326394] (yahboomcar_description) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[2.326470] (yahboomcar_description) StderrLine: {'line': b'\n'}
+[2.326547] (yahboomcar_description) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[2.326623] (yahboomcar_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.326696] (yahboomcar_description) StderrLine: {'line': b'\n'}
+[2.326770] (yahboomcar_description) StderrLine: {'line': b'!!\n'}
+[2.326843] (yahboomcar_description) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.335608] (yahboomcar_bringup) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[2.336004] (yahboomcar_bringup) StderrLine: {'line': b'!!\n'}
+[2.336183] (yahboomcar_bringup) StderrLine: {'line': b'\n'}
+[2.336397] (yahboomcar_bringup) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.336596] (yahboomcar_bringup) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[2.336786] (yahboomcar_bringup) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[2.336972] (yahboomcar_bringup) StderrLine: {'line': b'\n'}
+[2.337163] (yahboomcar_bringup) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[2.339363] (yahboomcar_bringup) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[2.339600] (yahboomcar_bringup) StderrLine: {'line': b'\n'}
+[2.339686] (yahboomcar_bringup) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[2.339765] (yahboomcar_bringup) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.339844] (yahboomcar_bringup) StderrLine: {'line': b'\n'}
+[2.339918] (yahboomcar_bringup) StderrLine: {'line': b'!!\n'}
+[2.339993] (yahboomcar_bringup) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.414274] (-) TimerEvent: {}
+[2.512307] (yahboomcar_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[2.512869] (yahboomcar_ctrl) StdoutLine: {'line': b'creating ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info\n'}
+[2.514353] (-) TimerEvent: {}
+[2.519727] (yahboomcar_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.519993] (yahboomcar_description) StdoutLine: {'line': b'creating ../../build/yahboomcar_description/yahboomcar_description.egg-info\n'}
+[2.529894] (yahboomcar_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[2.531296] (yahboomcar_bringup) StdoutLine: {'line': b'creating ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info\n'}
+[2.537332] (yahboomcar_ctrl) StdoutLine: {'line': b'writing ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/PKG-INFO\n'}
+[2.539486] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.539621] (yahboomcar_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/dependency_links.txt\n'}
+[2.539705] (yahboomcar_ctrl) StdoutLine: {'line': b'writing entry points to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/entry_points.txt\n'}
+[2.539785] (yahboomcar_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/requires.txt\n'}
+[2.539864] (yahboomcar_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/top_level.txt\n'}
+[2.539952] (yahboomcar_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'\n"}
+[2.541231] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.541457] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.541637] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.545002] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.545249] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.545438] (yahboomcar_description) StdoutLine: {'line': b'writing ../../build/yahboomcar_description/yahboomcar_description.egg-info/PKG-INFO\n'}
+[2.545598] (yahboomcar_description) StdoutLine: {'line': b'writing dependency_links to ../../build/yahboomcar_description/yahboomcar_description.egg-info/dependency_links.txt\n'}
+[2.545750] (yahboomcar_description) StdoutLine: {'line': b'writing requirements to ../../build/yahboomcar_description/yahboomcar_description.egg-info/requires.txt\n'}
+[2.545902] (yahboomcar_description) StdoutLine: {'line': b'writing top-level names to ../../build/yahboomcar_description/yahboomcar_description.egg-info/top_level.txt\n'}
+[2.546081] (yahboomcar_description) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_description/yahboomcar_description.egg-info/SOURCES.txt'\n"}
+[2.546736] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.550324] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.550549] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.550638] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.556269] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.556509] (yahboomcar_bringup) StdoutLine: {'line': b'writing ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/PKG-INFO\n'}
+[2.556709] (yahboomcar_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/dependency_links.txt\n'}
+[2.557181] (yahboomcar_bringup) StdoutLine: {'line': b'writing entry points to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/entry_points.txt\n'}
+[2.557469] (yahboomcar_bringup) StdoutLine: {'line': b'writing requirements to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/requires.txt\n'}
+[2.557960] (yahboomcar_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/top_level.txt\n'}
+[2.558108] (yahboomcar_bringup) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'\n"}
+[2.594267] (yahboomcar_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'\n"}
+[2.594516] (yahboomcar_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'\n"}
+[2.594686] (yahboomcar_ctrl) StdoutLine: {'line': b'running build\n'}
+[2.594784] (yahboomcar_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[2.594967] (yahboomcar_ctrl) StdoutLine: {'line': b'running install\n'}
+[2.596498] (yahboomcar_base_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.602828] (yahboomcar_description) StdoutLine: {'line': b"reading manifest file '../../build/yahboomcar_description/yahboomcar_description.egg-info/SOURCES.txt'\n"}
+[2.603829] (yahboomcar_description) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_description/yahboomcar_description.egg-info/SOURCES.txt'\n"}
+[2.604311] (yahboomcar_description) StdoutLine: {'line': b'running build\n'}
+[2.605358] (yahboomcar_description) StdoutLine: {'line': b'running build_py\n'}
+[2.605559] (yahboomcar_description) StdoutLine: {'line': b'running install\n'}
+[2.605750] (yahboomcar_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[2.613085] (yahboomcar_base_node) StdoutLine: {'line': b'-- Build files have been written to: /home/amr/driver_ws/build/yahboomcar_base_node\n'}
+[2.615517] (-) TimerEvent: {}
+[2.615842] (yahboomcar_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.616234] (yahboomcar_bringup) StdoutLine: {'line': b"reading manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'\n"}
+[2.619618] (yahboomcar_bringup) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'\n"}
+[2.619912] (yahboomcar_bringup) StdoutLine: {'line': b'running build\n'}
+[2.620055] (yahboomcar_bringup) StdoutLine: {'line': b'running build_py\n'}
+[2.620165] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/build/yahboomcar_bringup/build\n'}
+[2.620339] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/build/yahboomcar_bringup/build/lib\n'}
+[2.620462] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.620577] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/patrol_4ROS_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.621446] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/calibrate_linear_X3.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.622079] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/test.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.623119] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/calibrate_angular_X3.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.623721] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/Mcnamu_driver_X3.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.624977] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/untitled.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.625478] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/calibrate_angular_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.626056] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/Mcnamu_driver_x1.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.627395] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/transform_utils.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.628172] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/__init__.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.629210] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/patrol_4ROS.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.630013] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/calibrate_linear_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.631304] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/Ackman_driver_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.631979] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/patrol_a1_X3.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.633626] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/patrol_a1_R2.py -> /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[2.637267] (yahboomcar_bringup) StdoutLine: {'line': b'running install\n'}
+[2.637539] (yahboomcar_ctrl) StderrLine: {'line': b"warning: install_lib: '/home/amr/driver_ws/build/yahboomcar_ctrl/build/lib' does not exist -- no Python modules to install\n"}
+[2.637665] (yahboomcar_ctrl) StderrLine: {'line': b'\n'}
+[2.637759] (yahboomcar_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[2.637882] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_ctrl/share/ament_index\n'}
+[2.637972] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_ctrl/share/ament_index/resource_index\n'}
+[2.638184] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages\n'}
+[2.638353] (yahboomcar_ctrl) StdoutLine: {'line': b'copying resource/yahboomcar_ctrl -> /home/amr/driver_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages\n'}
+[2.638450] (yahboomcar_ctrl) StdoutLine: {'line': b'copying package.xml -> /home/amr/driver_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl\n'}
+[2.638548] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch\n'}
+[2.638642] (yahboomcar_ctrl) StdoutLine: {'line': b'copying launch/yahboomcar_joy_launch.py -> /home/amr/driver_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch\n'}
+[2.641772] (yahboomcar_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.641989] (yahboomcar_base_node) CommandEnded: {'returncode': 0}
+[2.642306] (yahboomcar_base_node) JobProgress: {'identifier': 'yahboomcar_base_node', 'progress': 'build'}
+[2.642335] (yahboomcar_base_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amr/driver_ws/build/yahboomcar_base_node', '--', '-j4', '-l4'], 'cwd': '/home/amr/driver_ws/build/yahboomcar_base_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'SSH_CLIENT': '10.188.124.225 54846 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr', 'OLDPWD': '/home/amr', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/amr/lidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/amr/driver_ws/build/yahboomcar_base_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.188.124.225 54846 10.188.124.181 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.648371] (yahboomcar_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[2.648744] (yahboomcar_description) StdoutLine: {'line': b'running install_data\n'}
+[2.648878] (yahboomcar_description) StderrLine: {'line': b"warning: install_lib: '/home/amr/driver_ws/build/yahboomcar_description/build/lib' does not exist -- no Python modules to install\n"}
+[2.648978] (yahboomcar_description) StderrLine: {'line': b'\n'}
+[2.649114] (yahboomcar_description) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_description/share/ament_index\n'}
+[2.649290] (yahboomcar_description) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_description/share/ament_index/resource_index\n'}
+[2.649417] (yahboomcar_description) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_description/share/ament_index/resource_index/packages\n'}
+[2.649509] (yahboomcar_description) StdoutLine: {'line': b'copying resource/yahboomcar_description -> /home/amr/driver_ws/install/yahboomcar_description/share/ament_index/resource_index/packages\n'}
+[2.649659] (yahboomcar_description) StdoutLine: {'line': b'copying package.xml -> /home/amr/driver_ws/install/yahboomcar_description/share/yahboomcar_description\n'}
+[2.649767] (yahboomcar_description) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_description/share/yahboomcar_description/launch\n'}
+[2.649893] (yahboomcar_description) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_description/share/yahboomcar_description/urdf\n'}
+[2.649985] (yahboomcar_description) StdoutLine: {'line': b'copying urdf/yahboomcar_R2.urdf.xacro -> /home/amr/driver_ws/install/yahboomcar_description/share/yahboomcar_description/urdf\n'}
+[2.650661] (yahboomcar_description) StdoutLine: {'line': b'copying urdf/yahboomcar_R2_multi.urdf.xacro -> /home/amr/driver_ws/install/yahboomcar_description/share/yahboomcar_description/urdf\n'}
+[2.651316] (yahboomcar_description) StdoutLine: {'line': b'copying urdf/yahboomcar_R2.urdf -> /home/amr/driver_ws/install/yahboomcar_description/share/yahboomcar_description/urdf\n'}
+[2.651901] (yahboomcar_description) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_description/share/yahboomcar_description/meshes\n'}
+[2.652077] (yahboomcar_description) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_description/share/yahboomcar_description/rviz\n'}
+[2.653280] (yahboomcar_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.668311] (yahboomcar_ctrl) StdoutLine: {'line': b'Copying ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info to /home/amr/driver_ws/install/yahboomcar_ctrl/lib/python3.12/site-packages/yahboomcar_ctrl-0.0.0-py3.12.egg-info\n'}
+[2.669651] (yahboomcar_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[2.675575] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.677252] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_4ROS_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.677487] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_linear_X3.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.677717] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/test.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.677835] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_angular_X3.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.678021] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Mcnamu_driver_X3.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.678135] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/untitled.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.681452] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_angular_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.681604] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Mcnamu_driver_x1.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.681699] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/transform_utils.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.681793] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/__init__.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.681884] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_4ROS.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.681978] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_linear_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.682074] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Ackman_driver_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.682169] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_a1_X3.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.682404] (yahboomcar_bringup) StdoutLine: {'line': b'copying /home/amr/driver_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_a1_R2.py -> /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup\n'}
+[2.682526] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/patrol_4ROS_R2.py to patrol_4ROS_R2.cpython-312.pyc\n'}
+[2.682701] (yahboomcar_description) StdoutLine: {'line': b'Copying ../../build/yahboomcar_description/yahboomcar_description.egg-info to /home/amr/driver_ws/install/yahboomcar_description/lib/python3.12/site-packages/yahboomcar_description-0.0.0-py3.12.egg-info\n'}
+[2.684153] (yahboomcar_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.688233] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/calibrate_linear_X3.py to calibrate_linear_X3.cpython-312.pyc\n'}
+[2.690413] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/test.py to test.cpython-312.pyc\n'}
+[2.691380] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/calibrate_angular_X3.py to calibrate_angular_X3.cpython-312.pyc\n'}
+[2.693956] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/Mcnamu_driver_X3.py to Mcnamu_driver_X3.cpython-312.pyc\n'}
+[2.696682] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/untitled.py to untitled.cpython-312.pyc\n'}
+[2.697468] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/calibrate_angular_R2.py to calibrate_angular_R2.cpython-312.pyc\n'}
+[2.702309] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/Mcnamu_driver_x1.py to Mcnamu_driver_x1.cpython-312.pyc\n'}
+[2.703941] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/transform_utils.py to transform_utils.cpython-312.pyc\n'}
+[2.704257] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/__init__.py to __init__.cpython-312.pyc\n'}
+[2.705083] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/patrol_4ROS.py to patrol_4ROS.cpython-312.pyc\n'}
+[2.711425] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/calibrate_linear_R2.py to calibrate_linear_R2.cpython-312.pyc\n'}
+[2.712791] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/Ackman_driver_R2.py to Ackman_driver_R2.cpython-312.pyc\n'}
+[2.715656] (-) TimerEvent: {}
+[2.716915] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/patrol_a1_X3.py to patrol_a1_X3.cpython-312.pyc\n'}
+[2.724499] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup/patrol_a1_R2.py to patrol_a1_R2.cpython-312.pyc\n'}
+[2.730670] (yahboomcar_bringup) StdoutLine: {'line': b'running install_data\n'}
+[2.730939] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_bringup/share/ament_index\n'}
+[2.731422] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_bringup/share/ament_index/resource_index\n'}
+[2.731936] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_bringup/share/ament_index/resource_index/packages\n'}
+[2.732452] (yahboomcar_bringup) StdoutLine: {'line': b'copying resource/yahboomcar_bringup -> /home/amr/driver_ws/install/yahboomcar_bringup/share/ament_index/resource_index/packages\n'}
+[2.733013] (yahboomcar_bringup) StdoutLine: {'line': b'copying package.xml -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup\n'}
+[2.733581] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch\n'}
+[2.734091] (yahboomcar_bringup) StdoutLine: {'line': b'copying launch/yahboomcar_bringup_R2_launch.py -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch\n'}
+[2.737877] (yahboomcar_bringup) StdoutLine: {'line': b'copying launch/yahboomcar_bringup_X3_launch.py -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch\n'}
+[2.738649] (yahboomcar_bringup) StdoutLine: {'line': b'copying launch/ekf_x1_x3_launch.py -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch\n'}
+[2.739234] (yahboomcar_bringup) StdoutLine: {'line': b'copying launch/yahboomcar_bringup_X1_launch.py -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch\n'}
+[2.741428] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_description\n'}
+[2.741688] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_description/rviz\n'}
+[2.741822] (yahboomcar_bringup) StdoutLine: {'line': b'copying rviz/yahboomcar.rviz -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_description/rviz\n'}
+[2.745521] (yahboomcar_bringup) StdoutLine: {'line': b'creating /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/param\n'}
+[2.747553] (yahboomcar_bringup) StdoutLine: {'line': b'copying param/imu_filter_param.yaml -> /home/amr/driver_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/param\n'}
+[2.751300] (yahboomcar_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.788144] (yahboomcar_bringup) StdoutLine: {'line': b'Copying ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info to /home/amr/driver_ws/install/yahboomcar_bringup/lib/python3.12/site-packages/yahboomcar_bringup-0.0.0-py3.12.egg-info\n'}
+[2.789578] (yahboomcar_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[2.809818] (yahboomcar_base_node) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/base_node_R2.dir/src/base_node_R2.cpp.o\x1b[0m\n'}
+[2.810112] (yahboomcar_base_node) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/base_node_x1.dir/src/base_node_x1.cpp.o\x1b[0m\n'}
+[2.814059] (yahboomcar_base_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/base_node_X3.dir/src/base_node_X3.cpp.o\x1b[0m\n'}
+[2.815755] (-) TimerEvent: {}
+[2.915135] (yahboomcar_description) StdoutLine: {'line': b"writing list of installed files to '/home/amr/driver_ws/build/yahboomcar_description/install.log'\n"}
+[2.920289] (-) TimerEvent: {}
+[2.993371] (yahboomcar_ctrl) StdoutLine: {'line': b'Installing yahboom_joy_R2 script to /home/amr/driver_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl\n'}
+[2.994329] (yahboomcar_ctrl) StdoutLine: {'line': b'Installing yahboom_joy_X3 script to /home/amr/driver_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl\n'}
+[2.994590] (yahboomcar_ctrl) StdoutLine: {'line': b'Installing yahboom_keyboard script to /home/amr/driver_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl\n'}
+[2.997994] (yahboomcar_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/amr/driver_ws/build/yahboomcar_ctrl/install.log'\n"}
+[3.008429] (yahboomcar_bringup) StdoutLine: {'line': b'Installing Ackman_driver_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.008716] (yahboomcar_bringup) StdoutLine: {'line': b'Installing Mcnamu_driver_X3 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.008833] (yahboomcar_bringup) StdoutLine: {'line': b'Installing Mcnamu_driver_x1 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009015] (yahboomcar_bringup) StdoutLine: {'line': b'Installing calibrate_angular_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009106] (yahboomcar_bringup) StdoutLine: {'line': b'Installing calibrate_angular_X3 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009236] (yahboomcar_bringup) StdoutLine: {'line': b'Installing calibrate_linear_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009378] (yahboomcar_bringup) StdoutLine: {'line': b'Installing calibrate_linear_X3 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009487] (yahboomcar_bringup) StdoutLine: {'line': b'Installing patrol_4ROS script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009587] (yahboomcar_bringup) StdoutLine: {'line': b'Installing patrol_4ROS_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009680] (yahboomcar_bringup) StdoutLine: {'line': b'Installing patrol_a1_R2 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009801] (yahboomcar_bringup) StdoutLine: {'line': b'Installing patrol_a1_X3 script to /home/amr/driver_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[3.009883] (yahboomcar_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/amr/driver_ws/build/yahboomcar_bringup/install.log'\n"}
+[3.022301] (-) TimerEvent: {}
+[3.082367] (yahboomcar_description) CommandEnded: {'returncode': 0}
+[3.124005] (-) TimerEvent: {}
+[3.125058] (yahboomcar_description) JobEnded: {'identifier': 'yahboomcar_description', 'rc': 0}
+[3.129304] (yahboomcar_bringup) CommandEnded: {'returncode': 0}
+[3.141045] (yahboomcar_bringup) JobEnded: {'identifier': 'yahboomcar_bringup', 'rc': 0}
+[3.174471] (yahboomcar_ctrl) CommandEnded: {'returncode': 0}
+[3.182948] (yahboomcar_ctrl) JobEnded: {'identifier': 'yahboomcar_ctrl', 'rc': 0}
+[3.224122] (-) TimerEvent: {}
+[3.324648] (-) TimerEvent: {}
+[3.425709] (-) TimerEvent: {}
+[3.526102] (-) TimerEvent: {}
+[3.626713] (-) TimerEvent: {}
+[3.727188] (-) TimerEvent: {}
+[3.827852] (-) TimerEvent: {}
+[3.928319] (-) TimerEvent: {}
+[4.028720] (-) TimerEvent: {}
+[4.129287] (-) TimerEvent: {}
+[4.229734] (-) TimerEvent: {}
+[4.330318] (-) TimerEvent: {}
+[4.430735] (-) TimerEvent: {}
+[4.531158] (-) TimerEvent: {}
+[4.631621] (-) TimerEvent: {}
+[4.732020] (-) TimerEvent: {}
+[4.832544] (-) TimerEvent: {}
+[4.932969] (-) TimerEvent: {}
+[5.033586] (-) TimerEvent: {}
+[5.133959] (-) TimerEvent: {}
+[5.234588] (-) TimerEvent: {}
+[5.335014] (-) TimerEvent: {}
+[5.435453] (-) TimerEvent: {}
+[5.536049] (-) TimerEvent: {}
+[5.636459] (-) TimerEvent: {}
+[5.737053] (-) TimerEvent: {}
+[5.837490] (-) TimerEvent: {}
+[5.937915] (-) TimerEvent: {}
+[6.038312] (-) TimerEvent: {}
+[6.138899] (-) TimerEvent: {}
+[6.239338] (-) TimerEvent: {}
+[6.340019] (-) TimerEvent: {}
+[6.440449] (-) TimerEvent: {}
+[6.541064] (-) TimerEvent: {}
+[6.641538] (-) TimerEvent: {}
+[6.742141] (-) TimerEvent: {}
+[6.842587] (-) TimerEvent: {}
+[6.943231] (-) TimerEvent: {}
+[7.043650] (-) TimerEvent: {}
+[7.048925] (yahboomcar_base_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/amr/driver_ws/src/yahboomcar_base_node/src/base_node_X3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OdomPublisher::\x1b[01;32m\x1b[Khandle_vel\x1b[m\x1b[K(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.049462] (yahboomcar_base_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/amr/driver_ws/src/yahboomcar_base_node/src/base_node_X3.cpp:80:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksteer_angle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.049676] (yahboomcar_base_node) StderrLine: {'line': b'   80 |                         double \x1b[01;35m\x1b[Ksteer_angle\x1b[m\x1b[K = linear_velocity_y_;\n'}
+[7.049801] (yahboomcar_base_node) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.049905] (yahboomcar_base_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/amr/driver_ws/src/yahboomcar_base_node/src/base_node_X3.cpp:81:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KMI_PI\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.050017] (yahboomcar_base_node) StderrLine: {'line': b'   81 |                         double \x1b[01;35m\x1b[KMI_PI\x1b[m\x1b[K = 3.1416;\n'}
+[7.050115] (yahboomcar_base_node) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.143776] (-) TimerEvent: {}
+[7.244222] (-) TimerEvent: {}
+[7.344778] (-) TimerEvent: {}
+[7.445155] (-) TimerEvent: {}
+[7.545709] (-) TimerEvent: {}
+[7.646149] (-) TimerEvent: {}
+[7.746765] (-) TimerEvent: {}
+[7.847254] (-) TimerEvent: {}
+[7.947826] (-) TimerEvent: {}
+[8.048463] (-) TimerEvent: {}
+[8.148840] (-) TimerEvent: {}
+[8.249488] (-) TimerEvent: {}
+[8.349917] (-) TimerEvent: {}
+[8.450306] (-) TimerEvent: {}
+[8.550907] (-) TimerEvent: {}
+[8.651397] (-) TimerEvent: {}
+[8.751965] (-) TimerEvent: {}
+[8.852386] (-) TimerEvent: {}
+[8.952955] (-) TimerEvent: {}
+[9.053389] (-) TimerEvent: {}
+[9.154001] (-) TimerEvent: {}
+[9.254460] (-) TimerEvent: {}
+[9.355061] (-) TimerEvent: {}
+[9.455499] (-) TimerEvent: {}
+[9.555873] (-) TimerEvent: {}
+[9.656477] (-) TimerEvent: {}
+[9.756914] (-) TimerEvent: {}
+[9.857495] (-) TimerEvent: {}
+[9.957899] (-) TimerEvent: {}
+[10.058516] (-) TimerEvent: {}
+[10.158909] (-) TimerEvent: {}
+[10.259545] (-) TimerEvent: {}
+[10.359944] (-) TimerEvent: {}
+[10.460564] (-) TimerEvent: {}
+[10.561010] (-) TimerEvent: {}
+[10.661584] (-) TimerEvent: {}
+[10.761990] (-) TimerEvent: {}
+[10.862603] (-) TimerEvent: {}
+[10.963043] (-) TimerEvent: {}
+[11.063700] (-) TimerEvent: {}
+[11.164235] (-) TimerEvent: {}
+[11.264635] (-) TimerEvent: {}
+[11.365222] (-) TimerEvent: {}
+[11.465610] (-) TimerEvent: {}
+[11.565981] (-) TimerEvent: {}
+[11.666566] (-) TimerEvent: {}
+[11.766989] (-) TimerEvent: {}
+[11.867690] (-) TimerEvent: {}
+[11.968346] (-) TimerEvent: {}
+[12.068986] (-) TimerEvent: {}
+[12.169448] (-) TimerEvent: {}
+[12.270079] (-) TimerEvent: {}
+[12.370517] (-) TimerEvent: {}
+[12.471097] (-) TimerEvent: {}
+[12.571501] (-) TimerEvent: {}
+[12.672129] (-) TimerEvent: {}
+[12.772602] (-) TimerEvent: {}
+[12.873228] (-) TimerEvent: {}
+[12.973652] (-) TimerEvent: {}
+[13.074268] (-) TimerEvent: {}
+[13.174691] (-) TimerEvent: {}
+[13.275281] (-) TimerEvent: {}
+[13.375667] (-) TimerEvent: {}
+[13.476268] (-) TimerEvent: {}
+[13.576653] (-) TimerEvent: {}
+[13.677246] (-) TimerEvent: {}
+[13.777676] (-) TimerEvent: {}
+[13.878313] (-) TimerEvent: {}
+[13.978717] (-) TimerEvent: {}
+[14.079291] (-) TimerEvent: {}
+[14.179715] (-) TimerEvent: {}
+[14.280313] (-) TimerEvent: {}
+[14.380733] (-) TimerEvent: {}
+[14.481330] (-) TimerEvent: {}
+[14.581758] (-) TimerEvent: {}
+[14.682171] (-) TimerEvent: {}
+[14.782584] (-) TimerEvent: {}
+[14.883180] (-) TimerEvent: {}
+[14.983619] (-) TimerEvent: {}
+[15.084192] (-) TimerEvent: {}
+[15.184616] (-) TimerEvent: {}
+[15.285015] (-) TimerEvent: {}
+[15.385470] (-) TimerEvent: {}
+[15.485869] (-) TimerEvent: {}
+[15.586282] (-) TimerEvent: {}
+[15.686667] (-) TimerEvent: {}
+[15.787051] (-) TimerEvent: {}
+[15.887684] (-) TimerEvent: {}
+[15.988086] (-) TimerEvent: {}
+[16.088688] (-) TimerEvent: {}
+[16.189101] (-) TimerEvent: {}
+[16.289703] (-) TimerEvent: {}
+[16.390129] (-) TimerEvent: {}
+[16.490715] (-) TimerEvent: {}
+[16.591053] (-) TimerEvent: {}
+[16.691376] (-) TimerEvent: {}
+[16.791717] (-) TimerEvent: {}
+[16.892025] (-) TimerEvent: {}
+[16.992365] (-) TimerEvent: {}
+[17.092743] (-) TimerEvent: {}
+[17.193137] (-) TimerEvent: {}
+[17.293432] (-) TimerEvent: {}
+[17.393741] (-) TimerEvent: {}
+[17.494086] (-) TimerEvent: {}
+[17.594553] (-) TimerEvent: {}
+[17.695103] (-) TimerEvent: {}
+[17.795804] (-) TimerEvent: {}
+[17.853899] (yahboomcar_base_node) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable base_node_X3\x1b[0m\n'}
+[17.896023] (-) TimerEvent: {}
+[17.996962] (-) TimerEvent: {}
+[18.097422] (-) TimerEvent: {}
+[18.198036] (-) TimerEvent: {}
+[18.298970] (-) TimerEvent: {}
+[18.400023] (-) TimerEvent: {}
+[18.500665] (-) TimerEvent: {}
+[18.602002] (-) TimerEvent: {}
+[18.703277] (-) TimerEvent: {}
+[18.804252] (-) TimerEvent: {}
+[18.904728] (-) TimerEvent: {}
+[19.005431] (-) TimerEvent: {}
+[19.105847] (-) TimerEvent: {}
+[19.142063] (yahboomcar_base_node) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable base_node_R2\x1b[0m\n'}
+[19.152166] (yahboomcar_base_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable base_node_x1\x1b[0m\n'}
+[19.208413] (-) TimerEvent: {}
+[19.227796] (yahboomcar_base_node) StdoutLine: {'line': b'[100%] Built target base_node_X3\n'}
+[19.308704] (-) TimerEvent: {}
+[19.409685] (-) TimerEvent: {}
+[19.510430] (-) TimerEvent: {}
+[19.611564] (-) TimerEvent: {}
+[19.712719] (-) TimerEvent: {}
+[19.813620] (-) TimerEvent: {}
+[19.914684] (-) TimerEvent: {}
+[20.015376] (-) TimerEvent: {}
+[20.115964] (-) TimerEvent: {}
+[20.216793] (-) TimerEvent: {}
+[20.317232] (-) TimerEvent: {}
+[20.417861] (-) TimerEvent: {}
+[20.518208] (-) TimerEvent: {}
+[20.618509] (-) TimerEvent: {}
+[20.626855] (yahboomcar_base_node) StdoutLine: {'line': b'[100%] Built target base_node_x1\n'}
+[20.631223] (yahboomcar_base_node) StdoutLine: {'line': b'[100%] Built target base_node_R2\n'}
+[20.653186] (yahboomcar_base_node) CommandEnded: {'returncode': 0}
+[20.653884] (yahboomcar_base_node) JobProgress: {'identifier': 'yahboomcar_base_node', 'progress': 'install'}
+[20.672757] (yahboomcar_base_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amr/driver_ws/build/yahboomcar_base_node'], 'cwd': '/home/amr/driver_ws/build/yahboomcar_base_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'SSH_CLIENT': '10.188.124.225 54846 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amr', 'OLDPWD': '/home/amr', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/amr/lidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/amr/driver_ws/build/yahboomcar_base_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.188.124.225 54846 10.188.124.181 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/amr/lidar_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[20.687747] (yahboomcar_base_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.688028] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/lib/yahboomcar_base_node/base_node_X3\n'}
+[20.699276] (yahboomcar_base_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/amr/driver_ws/install/yahboomcar_base_node/lib/yahboomcar_base_node/base_node_X3" to ""\n'}
+[20.699487] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/lib/yahboomcar_base_node/base_node_x1\n'}
+[20.709501] (yahboomcar_base_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/amr/driver_ws/install/yahboomcar_base_node/lib/yahboomcar_base_node/base_node_x1" to ""\n'}
+[20.709669] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/lib/yahboomcar_base_node/base_node_R2\n'}
+[20.718570] (-) TimerEvent: {}
+[20.719945] (yahboomcar_base_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/amr/driver_ws/install/yahboomcar_base_node/lib/yahboomcar_base_node/base_node_R2" to ""\n'}
+[20.720246] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/ament_index/resource_index/package_run_dependencies/yahboomcar_base_node\n'}
+[20.720494] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/ament_index/resource_index/parent_prefix_path/yahboomcar_base_node\n'}
+[20.720738] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/environment/ament_prefix_path.sh\n'}
+[20.720898] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/environment/ament_prefix_path.dsv\n'}
+[20.721055] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/environment/path.sh\n'}
+[20.721223] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/environment/path.dsv\n'}
+[20.721386] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/local_setup.bash\n'}
+[20.721544] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/local_setup.sh\n'}
+[20.721725] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/local_setup.zsh\n'}
+[20.721884] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/local_setup.dsv\n'}
+[20.722034] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/package.dsv\n'}
+[20.722253] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/ament_index/resource_index/packages/yahboomcar_base_node\n'}
+[20.722458] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/cmake/yahboomcar_base_nodeConfig.cmake\n'}
+[20.722594] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/cmake/yahboomcar_base_nodeConfig-version.cmake\n'}
+[20.722747] (yahboomcar_base_node) StdoutLine: {'line': b'-- Installing: /home/amr/driver_ws/install/yahboomcar_base_node/share/yahboomcar_base_node/package.xml\n'}
+[20.725560] (yahboomcar_base_node) CommandEnded: {'returncode': 0}
+[20.744562] (yahboomcar_base_node) JobEnded: {'identifier': 'yahboomcar_base_node', 'rc': 0}
+[20.745686] (-) EventReactorShutdown: {}

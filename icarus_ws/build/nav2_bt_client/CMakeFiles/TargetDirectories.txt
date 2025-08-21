@@ -1,0 +1,10 @@
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/uninstall.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/nav2_bt_client_uninstall.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/nav2_bt_node.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/test.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/edit_cache.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/rebuild_cache.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/list_install_components.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/install.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/install/local.dir
+/home/amr/icarus_ws/build/nav2_bt_client/CMakeFiles/install/strip.dir

@@ -1,0 +1,16 @@
+/home/amr/icarus_ws/install/nav2_client/lib/nav2_client/navigation_client
+/home/amr/icarus_ws/install/nav2_client/share/ament_index/resource_index/package_run_dependencies/nav2_client
+/home/amr/icarus_ws/install/nav2_client/share/ament_index/resource_index/parent_prefix_path/nav2_client
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/environment/ament_prefix_path.sh
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/environment/ament_prefix_path.dsv
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/environment/path.sh
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/environment/path.dsv
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/local_setup.bash
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/local_setup.sh
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/local_setup.zsh
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/local_setup.dsv
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/package.dsv
+/home/amr/icarus_ws/install/nav2_client/share/ament_index/resource_index/packages/nav2_client
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/cmake/nav2_clientConfig.cmake
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/cmake/nav2_clientConfig-version.cmake
+/home/amr/icarus_ws/install/nav2_client/share/nav2_client/package.xml

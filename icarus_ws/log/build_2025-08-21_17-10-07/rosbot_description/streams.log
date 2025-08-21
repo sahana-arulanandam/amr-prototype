@@ -1,0 +1,54 @@
+[1.674s] Invoking command in '/home/amr/icarus_ws/src/rosbot_description': PYTHONPATH=/home/amr/icarus_ws/build/rosbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/icarus_ws/install/rosbot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rosbot_description build --build-base /home/amr/icarus_ws/build/rosbot_description/build install --record /home/amr/icarus_ws/build/rosbot_description/install.log --single-version-externally-managed install_data
+[2.127s] running egg_info
+[2.131s] creating ../../build/rosbot_description/rosbot_description.egg-info
+[2.169s] writing ../../build/rosbot_description/rosbot_description.egg-info/PKG-INFO
+[2.170s] writing dependency_links to ../../build/rosbot_description/rosbot_description.egg-info/dependency_links.txt
+[2.171s] writing requirements to ../../build/rosbot_description/rosbot_description.egg-info/requires.txt
+[2.171s] writing top-level names to ../../build/rosbot_description/rosbot_description.egg-info/top_level.txt
+[2.171s] writing manifest file '../../build/rosbot_description/rosbot_description.egg-info/SOURCES.txt'
+[2.235s] reading manifest file '../../build/rosbot_description/rosbot_description.egg-info/SOURCES.txt'
+[2.235s] writing manifest file '../../build/rosbot_description/rosbot_description.egg-info/SOURCES.txt'
+[2.235s] running build
+[2.236s] running build_py
+[2.236s] creating /home/amr/icarus_ws/build/rosbot_description/build
+[2.236s] creating /home/amr/icarus_ws/build/rosbot_description/build/lib
+[2.236s] creating /home/amr/icarus_ws/build/rosbot_description/build/lib/rosbot_description
+[2.236s] copying rosbot_description/__init__.py -> /home/amr/icarus_ws/build/rosbot_description/build/lib/rosbot_description
+[2.236s] running install
+[2.245s] running install_lib
+[2.275s] creating /home/amr/icarus_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot_description
+[2.276s] copying /home/amr/icarus_ws/build/rosbot_description/build/lib/rosbot_description/__init__.py -> /home/amr/icarus_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot_description
+[2.277s] byte-compiling /home/amr/icarus_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot_description/__init__.py to __init__.cpython-312.pyc
+[2.280s] running install_data
+[2.280s] creating /home/amr/icarus_ws/install/rosbot_description/share/ament_index
+[2.280s] creating /home/amr/icarus_ws/install/rosbot_description/share/ament_index/resource_index
+[2.281s] creating /home/amr/icarus_ws/install/rosbot_description/share/ament_index/resource_index/packages
+[2.281s] copying resource/rosbot_description -> /home/amr/icarus_ws/install/rosbot_description/share/ament_index/resource_index/packages
+[2.281s] copying package.xml -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description
+[2.281s] creating /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/launch
+[2.281s] copying launch/state-publisher.launch.py -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/launch
+[2.281s] copying launch/display.launch.py -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/launch
+[2.281s] copying launch/gazebo.launch.py -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/launch
+[2.281s] creating /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/urdf
+[2.281s] copying urdf/rosbot.xacro -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/urdf
+[2.281s] copying urdf/new.xacro -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/urdf
+[2.281s] copying urdf/materials.xacro -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/urdf
+[2.281s] copying urdf/rosbot.gazebo -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/urdf
+[2.282s] creating /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/meshes
+[2.285s] copying meshes/lidar_1.stl -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/meshes
+[2.285s] copying meshes/right_wheel_1.stl -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/meshes
+[2.285s] copying meshes/base_link.stl -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/meshes
+[2.286s] copying meshes/left_wheel_1.stl -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/meshes
+[2.286s] creating /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/models
+[2.286s] creating /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/worlds
+[2.286s] copying worlds/hospital.sdf -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/worlds
+[2.286s] copying worlds/hospital.world -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/worlds
+[2.286s] creating /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/config
+[2.286s] copying config/display.rviz -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/config
+[2.286s] copying config/gazebo.rviz -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/config
+[2.286s] copying config/ros_gz_bridge_gazebo.yaml -> /home/amr/icarus_ws/install/rosbot_description/share/rosbot_description/config
+[2.286s] running install_egg_info
+[2.325s] Copying ../../build/rosbot_description/rosbot_description.egg-info to /home/amr/icarus_ws/install/rosbot_description/lib/python3.12/site-packages/rosbot_description-0.0.0-py3.12.egg-info
+[2.326s] running install_scripts
+[2.558s] writing list of installed files to '/home/amr/icarus_ws/build/rosbot_description/install.log'
+[2.650s] Invoked command in '/home/amr/icarus_ws/src/rosbot_description' returned '0': PYTHONPATH=/home/amr/icarus_ws/build/rosbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/icarus_ws/install/rosbot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rosbot_description build --build-base /home/amr/icarus_ws/build/rosbot_description/build install --record /home/amr/icarus_ws/build/rosbot_description/install.log --single-version-externally-managed install_data

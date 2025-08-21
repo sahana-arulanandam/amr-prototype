@@ -1,0 +1,25 @@
+[100%] Built target nav2_bt_node
+-- Install configuration: ""
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/bt_xml
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/bt_xml/nav_tree.xml
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/bt_xml/nav_tree_naive.xml
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/launch
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/launch/start_bt_app.launch.py
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/config
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/config/map_locations.yaml
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/lib/nav2_bt_client/nav2_bt_node
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/ament_index/resource_index/package_run_dependencies/nav2_bt_client
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/ament_index/resource_index/parent_prefix_path/nav2_bt_client
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/environment/ament_prefix_path.sh
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/environment/path.sh
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/environment/path.dsv
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/local_setup.bash
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/local_setup.sh
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/local_setup.zsh
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/local_setup.dsv
+-- Installing: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/package.dsv
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/ament_index/resource_index/packages/nav2_bt_client
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/cmake/nav2_bt_clientConfig.cmake
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/cmake/nav2_bt_clientConfig-version.cmake
+-- Up-to-date: /home/amr/icarus_ws/install/nav2_bt_client/share/nav2_bt_client/package.xml

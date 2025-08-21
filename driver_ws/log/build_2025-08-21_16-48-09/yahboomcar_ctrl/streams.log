@@ -1,0 +1,48 @@
+[2.069s] Invoking command in '/home/amr/driver_ws/src/yahboomcar_ctrl': PYTHONPATH=/home/amr/driver_ws/build/yahboomcar_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/driver_ws/install/yahboomcar_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboomcar_ctrl build --build-base /home/amr/driver_ws/build/yahboomcar_ctrl/build install --record /home/amr/driver_ws/build/yahboomcar_ctrl/install.log --install-scripts $base/lib/yahboomcar_ctrl --single-version-externally-managed install_data
+[2.306s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.309s] !!
+[2.309s] 
+[2.310s]         ********************************************************************************
+[2.310s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.310s]         versions. Please use the underscore name 'script_dir' instead.
+[2.310s] 
+[2.310s]         This deprecation is overdue, please update your project and remove deprecated
+[2.310s]         calls to avoid build errors in the future.
+[2.310s] 
+[2.310s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.310s]         ********************************************************************************
+[2.310s] 
+[2.310s] !!
+[2.310s]   opt = self.warn_dash_deprecation(opt, section)
+[2.497s] running egg_info
+[2.498s] creating ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info
+[2.524s] writing ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/PKG-INFO
+[2.524s] writing dependency_links to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/dependency_links.txt
+[2.524s] writing entry points to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/entry_points.txt
+[2.525s] writing requirements to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/requires.txt
+[2.525s] writing top-level names to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/top_level.txt
+[2.525s] writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[2.579s] reading manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[2.579s] writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[2.579s] running build
+[2.580s] running build_py
+[2.580s] running install
+[2.591s] running install_lib
+[2.622s] warning: install_lib: '/home/amr/driver_ws/build/yahboomcar_ctrl/build/lib' does not exist -- no Python modules to install
+[2.622s] 
+[2.623s] running install_data
+[2.623s] creating /home/amr/driver_ws/install/yahboomcar_ctrl/share/ament_index
+[2.623s] creating /home/amr/driver_ws/install/yahboomcar_ctrl/share/ament_index/resource_index
+[2.623s] creating /home/amr/driver_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages
+[2.623s] copying resource/yahboomcar_ctrl -> /home/amr/driver_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages
+[2.623s] copying package.xml -> /home/amr/driver_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl
+[2.623s] creating /home/amr/driver_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+[2.623s] copying launch/yahboomcar_joy_launch.py -> /home/amr/driver_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+[2.627s] running install_egg_info
+[2.653s] Copying ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info to /home/amr/driver_ws/install/yahboomcar_ctrl/lib/python3.12/site-packages/yahboomcar_ctrl-0.0.0-py3.12.egg-info
+[2.655s] running install_scripts
+[2.978s] Installing yahboom_joy_R2 script to /home/amr/driver_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[2.979s] Installing yahboom_joy_X3 script to /home/amr/driver_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[2.979s] Installing yahboom_keyboard script to /home/amr/driver_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[2.983s] writing list of installed files to '/home/amr/driver_ws/build/yahboomcar_ctrl/install.log'
+[3.159s] Invoked command in '/home/amr/driver_ws/src/yahboomcar_ctrl' returned '0': PYTHONPATH=/home/amr/driver_ws/build/yahboomcar_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/driver_ws/install/yahboomcar_ctrl/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboomcar_ctrl build --build-base /home/amr/driver_ws/build/yahboomcar_ctrl/build install --record /home/amr/driver_ws/build/yahboomcar_ctrl/install.log --install-scripts $base/lib/yahboomcar_ctrl --single-version-externally-managed install_data
